@@ -85,3 +85,24 @@
    position: absolute;
    /* opacity: 0; */
 }
+
+@media screen and (max-width: 810px) {
+   .left-container>img{
+      height: auto;
+   }
+   .middle-container{
+      padding-left: 0;
+      padding-right: 2%;
+   }
+   .right-container{
+      padding-left: 0%;
+   }
+   
+}
+@media screen and (max-width:420px){
+   .detail-container{
+      display: block;
+   }
+   
+   
+}
