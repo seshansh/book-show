@@ -1,0 +1,48 @@
+.book-show-container{
+    position: absolute;
+    background-color: #434242;
+    width: 25rem;
+    height: 20rem;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.book-show-container>button{
+    padding: .75rem 2.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: .4rem;
+    font-size: medium;
+    background-color: RGB(202, 233, 98);
+    border: none;
+    margin: 10% 2.5% 0 0;
+    color: green;
+}
+
+.book-form{
+    width: 100%;
+    padding-top: 5%;
+}
+.pre-field-data{
+    display:flex;
+}
+.user-data>input{
+    width: 80%;
+    height: 30px;
+    font-size: medium;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    color: antiquewhite;
+    margin: 1% 0% 8% 3%;
+    padding-left: 1%;
+    background-color: transparent;
+}
+
+.user-data{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}

@@ -1,0 +1,19 @@
+.nav-bar{
+    position:sticky;
+    background-color: #0A2647;
+    width: auto;
+    height: 5rem;
+    margin:1% 15% 0% 10%;
+    border-radius: 60px;
+    color: #F5F5DC;
+    padding: 0px 30px;
+}
+
+.nav__item{
+    display: flex;
+    justify-content: center;
+}
+
+.site-name{
+    margin-left: 10px;
+}

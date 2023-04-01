@@ -1,0 +1,44 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+  .movie-card-container{
+    cursor: pointer;
+    text-decoration: none;
+  }
+.movie-image{
+    width: auto;
+    background-color: #434242;
+    border-radius: 2px;
+    margin: 15px;
+    z-index: 10;
+    /* border: 0.2px solid #222222; */
+    box-shadow: 5px 10px 20px black inset;
+}
+.movies-rating{
+    /* position: absolute; */
+    /* background-color: #222222; */
+    height: 28px;
+}
+.movie-rate__num{
+    margin-top: 0%;
+    font-size: small;
+    display: inline-block;
+    color: white;
+    padding-right: 10px;
+}
+.movie-details{
+    padding-left: 10px;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.movie-name{
+    margin: 5px;
+    font-family: 'Rubik', sans-serif;
+    color: aliceblue;
+}
+.movie-genres{
+    font-size: small;
+    color: #CFD2CF;
+}
