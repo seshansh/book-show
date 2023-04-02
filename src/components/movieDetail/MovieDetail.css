@@ -1,14 +1,15 @@
 .detail-container{
     display:flex;
-    padding-top: 7vh;
+    padding-top: 20vh;
     background-color: RGB(85, 86, 90);
-    height: 90vh;
+    height: 80vh;
     overflow-y:auto;
     padding-left: 20px;
 }
 
 .left-container{
    flex: 3;
+   padding-top: 10px;
 }
 
 .left-container >img{

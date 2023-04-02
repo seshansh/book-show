@@ -38,7 +38,7 @@ const BookTicket = ({details}) => {
             <div className='book-form'>
                 <div className='user-data'>
                     <input placeholder='Name*' type='text' onChange={(e) => setName(e.target.value)} />
-                    <input placeholder='contact number*' type='text' onChange={(e) => setPhone(e.target.value)} />
+                    <input placeholder='Contact number*' type='text' onChange={(e) => setPhone(e.target.value)} />
                 </div>
                 <div className='pre-field-data'>
                     <div>&#x2022; {details.show.name}&nbsp;&nbsp; </div>

@@ -1,13 +1,11 @@
 .nav-bar{
-    /* position: -webkit-sticky; */
-    position: sticky;
+    position: fixed;
     background-color: #0A2647;
-    width: auto;
+    width: 78vw;
     height: 5rem;
     margin:1% 15% 0% 10%;
     border-radius: 60px;
     color: #F5F5DC;
-    padding: 0px 30px;
 }
 
 .nav__item{
