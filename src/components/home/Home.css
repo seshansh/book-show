@@ -15,3 +15,28 @@
 .home-link{
     text-decoration: none;
 }
+
+@media screen and (max-width:420px){
+    .movie-list_outer{
+        padding-left: 3.2rem;
+    }
+    
+ }
+ @media screen and (min-width:360px) and (max-width:384px){
+    .movie-list_outer{
+        padding-left: 2.2rem;
+    }
+    
+ }
+ /* @media screen and (max-width:384px){
+    .movie-list_outer{
+        padding-left: 2.2rem;
+    }
+    
+ } */
+ /* @media screen and (max-width:810px){
+    .movie-list_outer{
+        padding-left: 7rem;
+    }
+    
+} */

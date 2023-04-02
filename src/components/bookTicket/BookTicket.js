@@ -46,7 +46,7 @@ const BookTicket = ({details}) => {
                     <div>&#x2022; {showTime}&nbsp;&nbsp; </div>
                 </div>
             </div>
-            {textError?<p style={{color:"red",marginTop:"10px",marginBottom:0}}>Please enter Name & Phone Number</p>:""}
+            {textError?<p className='err-msg'>Please enter Name & Phone Number</p>:""}
             <button onClick={handleClick}>Book</button>
         </div>
     )

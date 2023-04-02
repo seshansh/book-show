@@ -102,7 +102,26 @@
 @media screen and (max-width:420px){
    .detail-container{
       display: block;
+      padding-left: 3.2rem;
    }
    
+   
+}
+/* @media screen and (max-width:420px){
+   .movie-list_outer{
+       padding-left: 3.2rem;
+   }
+   
+} */
+/* @media screen and (max-width:420px){
+   .movie-list_outer{
+      padding-left: 3.2rem;
+  }
+  
+} */
+@media screen and (min-width:360px) and (max-width:384px){
+   .detail-container{
+       padding-left: 2.2rem;
+   }
    
 }

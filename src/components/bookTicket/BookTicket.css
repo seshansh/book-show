@@ -46,3 +46,42 @@
     flex: 1;
     flex-direction: column;
 }
+.err-msg{
+    color:red;
+    margin-top: 10px;
+    margin-bottom:0;
+}
+
+@media screen and (max-width:420px){
+    .middle-btn-container{
+        position: relative;
+    }
+
+    .book-show-container{
+        width: 18rem;
+        height: 19rem;
+    }
+    .book-show-container>button{
+        padding: .75rem 1.2rem;
+    }
+    .err-msg{
+        font-size:smaller;
+    }
+    .pre-field-data{
+        flex-wrap: wrap;
+    }
+    .pre-field-data>div{
+        margin-right: 50px;
+        margin-bottom: 5px;
+    }
+ }
+ /* @media screen and (min-width:360px) and (max-width:420px){
+    .site-name{
+        font-size: 1.6rem;
+       
+    }
+    .nav-bar{
+        padding: 0.5rem 0 0 0;
+        margin:1% 10% 0% 8%;
+    }
+} */

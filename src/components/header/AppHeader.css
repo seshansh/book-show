@@ -1,5 +1,6 @@
 .nav-bar{
-    position:sticky;
+    /* position: -webkit-sticky; */
+    position: sticky;
     background-color: #0A2647;
     width: auto;
     height: 5rem;
@@ -17,3 +18,23 @@
 .site-name{
     margin-left: 10px;
 }
+@media screen and (max-width:420px){
+    .site-name{
+        font-size: 1.8rem;
+        align-items: center;
+    }
+    
+ }
+ @media screen and (min-width:360px) and (max-width:420px){
+    .site-name{
+        font-size: 1.6rem;
+       
+    }
+    .nav-bar{
+        padding: 0.5rem 0 0 0;
+        margin:1% 10% 0% 8%;
+    }
+    
+ }
+ 
+ 
