@@ -4,7 +4,6 @@ import { Link, useNavigate } from 'react-router-dom';
 import { AiFillStar } from "react-icons/ai";
 import BookTicket from '../bookTicket/BookTicket';
 
-
 const Genres = ({ name }) => {
     return <p className='right-genres'>{name}</p>
 }
@@ -35,6 +34,7 @@ const MovieDetail = ({details}) => {
         }
     })
 
+
     return (
         <div className='detail-container'>
             <div className='left-container'>
@@ -52,7 +52,7 @@ const MovieDetail = ({details}) => {
                 </div>
                 <div className='middle-btn-container'>
                 <button className='middle-btn' onClick={showHandler}>Book Show</button>
-                {show ? <div className='booking-container'><BookTicket details={details}/> </div>: null}
+                {show ? <div className='booking-container'><BookTicket details={details} /> </div>: null}
                 </div>
                 <div className='middle-summery'dangerouslySetInnerHTML={ {__html:details.show.summary}}></div>
             </div>
@@ -68,6 +68,7 @@ const MovieDetail = ({details}) => {
                 <div style={{ display: "flex", alignItems: "center", flexWrap: "wrap" }}><b>Genres: </b>{details.show.genres.map((item,index) => <Genres key={index} name={item} />)} </div>
             </div>
         </div>
+        
     )
 }
 

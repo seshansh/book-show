@@ -14,7 +14,7 @@ import MovieDetail from './components/movieDetail/MovieDetail';
         <Router>
         <AppHeader />
           <Routes>
-          <Route path='/' exact element={<Home setSingleData={setSingleData}/>} />
+          <Route path='/' exact element={<Home setSingleData={setSingleData} />} />
           <Route path='/detail' exact element={singleData ?<MovieDetail details={singleData} />:<Home />} />
           </Routes>
         </Router>

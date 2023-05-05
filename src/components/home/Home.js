@@ -24,7 +24,7 @@ useEffect(()=>{
         <h2>Recommended Shows</h2>
         <div className="movie-list">
             {data.map((item,index)=>{
-               return   <Link to='/detail' key={index} className="home-link"><Movies detail={item} setSingleData={setSingleData}/></Link>
+               return   <Link to='/detail' key={index} className="home-link"><Movies detail={item} setSingleData={setSingleData} /></Link>
             })}
         </div>
     </div>

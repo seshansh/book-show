@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import './BookTicket.css'
 import { useNavigate } from 'react-router-dom';
 
+
 const BookTicket = ({details}) => {
 
     const [name, setName] = useState("");
@@ -30,6 +31,9 @@ const BookTicket = ({details}) => {
         }
 
         localStorage.setItem('ticket', JSON.stringify(item));
+
+        alert(`Your booking confirmed for the show name ${details.show.name}`);
+        
         navigate('/');
     }
 
